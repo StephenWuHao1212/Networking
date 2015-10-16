@@ -1,0 +1,577 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		19BA5EAA1BC21CA0003C95B9 /* CommonBluetooth.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19BA5EA91BC21CA0003C95B9 /* CommonBluetooth.swift */; };
+		752EB54C1BB08BDD00E3C1D3 /* NewStudentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 752EB54B1BB08BDD00E3C1D3 /* NewStudentViewController.swift */; };
+		752EB54E1BB0A46200E3C1D3 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 752EB54D1BB0A46200E3C1D3 /* TableViewCell.swift */; };
+		755F418A1BAEF10C000ED507 /* Students.swift in Sources */ = {isa = PBXBuildFile; fileRef = 755F41891BAEF10C000ED507 /* Students.swift */; };
+		755F418C1BAEF147000ED507 /* Info.swift in Sources */ = {isa = PBXBuildFile; fileRef = 755F418B1BAEF147000ED507 /* Info.swift */; };
+		756ACF4C1BC21220009B3ECE /* Storage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 756ACF4B1BC21220009B3ECE /* Storage.swift */; };
+		75BD2B8B1BB0D4C7002F7108 /* FlipViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75BD2B8A1BB0D4C7002F7108 /* FlipViewController.swift */; };
+		75BD2B8F1BB0D4D5002F7108 /* GSViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75BD2B8C1BB0D4D5002F7108 /* GSViewController.swift */; };
+		75BD2B901BB0D4D5002F7108 /* drawingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75BD2B8D1BB0D4D5002F7108 /* drawingView.swift */; };
+		75BD2B911BB0D4D5002F7108 /* HaoFlipViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75BD2B8E1BB0D4D5002F7108 /* HaoFlipViewController.swift */; };
+		75BD2B981BB0D501002F7108 /* cf.wav in Resources */ = {isa = PBXBuildFile; fileRef = 75BD2B921BB0D501002F7108 /* cf.wav */; };
+		75BD2B991BB0D501002F7108 /* cheer2.wav in Resources */ = {isa = PBXBuildFile; fileRef = 75BD2B931BB0D501002F7108 /* cheer2.wav */; };
+		75BD2B9A1BB0D501002F7108 /* dogbark2.wav in Resources */ = {isa = PBXBuildFile; fileRef = 75BD2B941BB0D501002F7108 /* dogbark2.wav */; };
+		75BD2B9B1BB0D501002F7108 /* farm007.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 75BD2B951BB0D501002F7108 /* farm007.mp3 */; };
+		75BD2B9C1BB0D501002F7108 /* musical001.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 75BD2B961BB0D501002F7108 /* musical001.mp3 */; };
+		75BD2B9D1BB0D501002F7108 /* Windswept-synth-guitar-and-soft-strings.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 75BD2B971BB0D501002F7108 /* Windswept-synth-guitar-and-soft-strings.mp3 */; };
+		75BD2BA41BB0D521002F7108 /* 6249.wav in Resources */ = {isa = PBXBuildFile; fileRef = 75BD2B9E1BB0D521002F7108 /* 6249.wav */; };
+		75BD2BA51BB0D521002F7108 /* 6365.wav in Resources */ = {isa = PBXBuildFile; fileRef = 75BD2B9F1BB0D521002F7108 /* 6365.wav */; };
+		75BD2BA61BB0D521002F7108 /* applause10.wav in Resources */ = {isa = PBXBuildFile; fileRef = 75BD2BA01BB0D521002F7108 /* applause10.wav */; };
+		75BD2BA71BB0D521002F7108 /* cartoon002.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 75BD2BA11BB0D521002F7108 /* cartoon002.mp3 */; };
+		75BD2BA81BB0D521002F7108 /* cartoon010.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 75BD2BA21BB0D521002F7108 /* cartoon010.mp3 */; };
+		75BD2BA91BB0D521002F7108 /* cartoon014.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 75BD2BA31BB0D521002F7108 /* cartoon014.mp3 */; };
+		75BD2BB11BB0D529002F7108 /* me1.png in Resources */ = {isa = PBXBuildFile; fileRef = 75BD2BAA1BB0D529002F7108 /* me1.png */; };
+		75BD2BB21BB0D529002F7108 /* me2.png in Resources */ = {isa = PBXBuildFile; fileRef = 75BD2BAB1BB0D529002F7108 /* me2.png */; };
+		75BD2BB31BB0D529002F7108 /* me3.png in Resources */ = {isa = PBXBuildFile; fileRef = 75BD2BAC1BB0D529002F7108 /* me3.png */; };
+		75BD2BB41BB0D529002F7108 /* notes.png in Resources */ = {isa = PBXBuildFile; fileRef = 75BD2BAD1BB0D529002F7108 /* notes.png */; };
+		75BD2BB51BB0D529002F7108 /* piano.png in Resources */ = {isa = PBXBuildFile; fileRef = 75BD2BAE1BB0D529002F7108 /* piano.png */; };
+		75BD2BB61BB0D529002F7108 /* racquet.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 75BD2BAF1BB0D529002F7108 /* racquet.jpg */; };
+		75BD2BB71BB0D529002F7108 /* sunflower.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 75BD2BB01BB0D529002F7108 /* sunflower.jpg */; };
+		75BD2BBC1BB0D530002F7108 /* blue.png in Resources */ = {isa = PBXBuildFile; fileRef = 75BD2BB81BB0D530002F7108 /* blue.png */; };
+		75BD2BBD1BB0D530002F7108 /* CHOIR.gif in Resources */ = {isa = PBXBuildFile; fileRef = 75BD2BB91BB0D530002F7108 /* CHOIR.gif */; };
+		75BD2BBE1BB0D530002F7108 /* curtain1.png in Resources */ = {isa = PBXBuildFile; fileRef = 75BD2BBA1BB0D530002F7108 /* curtain1.png */; };
+		75BD2BBF1BB0D530002F7108 /* keyboard.png in Resources */ = {isa = PBXBuildFile; fileRef = 75BD2BBB1BB0D530002F7108 /* keyboard.png */; };
+		75BD2BC31BB0D5A6002F7108 /* SwiftPromptsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75BD2BC01BB0D5A6002F7108 /* SwiftPromptsView.swift */; };
+		75BD2BC41BB0D5A6002F7108 /* SwiftPrompts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75BD2BC11BB0D5A6002F7108 /* SwiftPrompts.swift */; };
+		75BD2BC51BB0D5A6002F7108 /* UIImageEffects.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75BD2BC21BB0D5A6002F7108 /* UIImageEffects.swift */; };
+		75E7A0901BADAA8100614584 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75E7A08F1BADAA8100614584 /* AppDelegate.swift */; };
+		75E7A0921BADAA8100614584 /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75E7A0911BADAA8100614584 /* MasterViewController.swift */; };
+		75E7A0941BADAA8100614584 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75E7A0931BADAA8100614584 /* DetailViewController.swift */; };
+		75E7A0971BADAA8100614584 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75E7A0951BADAA8100614584 /* Main.storyboard */; };
+		75E7A0991BADAA8100614584 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 75E7A0981BADAA8100614584 /* Images.xcassets */; };
+		75E7A09C1BADAA8100614584 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 75E7A09A1BADAA8100614584 /* LaunchScreen.xib */; };
+		75E7A0A81BADAA8100614584 /* RosterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75E7A0A71BADAA8100614584 /* RosterTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		75E7A0A21BADAA8100614584 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 75E7A0821BADAA8100614584 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 75E7A0891BADAA8100614584;
+			remoteInfo = Roster;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		19BA5EA91BC21CA0003C95B9 /* CommonBluetooth.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommonBluetooth.swift; sourceTree = "<group>"; };
+		752EB54B1BB08BDD00E3C1D3 /* NewStudentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewStudentViewController.swift; sourceTree = "<group>"; };
+		752EB54D1BB0A46200E3C1D3 /* TableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		755F41891BAEF10C000ED507 /* Students.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Students.swift; path = ../Students.swift; sourceTree = "<group>"; };
+		755F418B1BAEF147000ED507 /* Info.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Info.swift; path = ../Info.swift; sourceTree = "<group>"; };
+		756ACF4B1BC21220009B3ECE /* Storage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Storage.swift; sourceTree = "<group>"; };
+		75BD2B8A1BB0D4C7002F7108 /* FlipViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlipViewController.swift; sourceTree = "<group>"; };
+		75BD2B8C1BB0D4D5002F7108 /* GSViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GSViewController.swift; sourceTree = "<group>"; };
+		75BD2B8D1BB0D4D5002F7108 /* drawingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = drawingView.swift; sourceTree = "<group>"; };
+		75BD2B8E1BB0D4D5002F7108 /* HaoFlipViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HaoFlipViewController.swift; sourceTree = "<group>"; };
+		75BD2B921BB0D501002F7108 /* cf.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = cf.wav; sourceTree = "<group>"; };
+		75BD2B931BB0D501002F7108 /* cheer2.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = cheer2.wav; sourceTree = "<group>"; };
+		75BD2B941BB0D501002F7108 /* dogbark2.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = dogbark2.wav; sourceTree = "<group>"; };
+		75BD2B951BB0D501002F7108 /* farm007.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = farm007.mp3; sourceTree = "<group>"; };
+		75BD2B961BB0D501002F7108 /* musical001.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = musical001.mp3; sourceTree = "<group>"; };
+		75BD2B971BB0D501002F7108 /* Windswept-synth-guitar-and-soft-strings.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Windswept-synth-guitar-and-soft-strings.mp3"; sourceTree = "<group>"; };
+		75BD2B9E1BB0D521002F7108 /* 6249.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = 6249.wav; sourceTree = "<group>"; };
+		75BD2B9F1BB0D521002F7108 /* 6365.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = 6365.wav; sourceTree = "<group>"; };
+		75BD2BA01BB0D521002F7108 /* applause10.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = applause10.wav; sourceTree = "<group>"; };
+		75BD2BA11BB0D521002F7108 /* cartoon002.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = cartoon002.mp3; sourceTree = "<group>"; };
+		75BD2BA21BB0D521002F7108 /* cartoon010.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = cartoon010.mp3; sourceTree = "<group>"; };
+		75BD2BA31BB0D521002F7108 /* cartoon014.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = cartoon014.mp3; sourceTree = "<group>"; };
+		75BD2BAA1BB0D529002F7108 /* me1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = me1.png; sourceTree = "<group>"; };
+		75BD2BAB1BB0D529002F7108 /* me2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = me2.png; sourceTree = "<group>"; };
+		75BD2BAC1BB0D529002F7108 /* me3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = me3.png; sourceTree = "<group>"; };
+		75BD2BAD1BB0D529002F7108 /* notes.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = notes.png; sourceTree = "<group>"; };
+		75BD2BAE1BB0D529002F7108 /* piano.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = piano.png; sourceTree = "<group>"; };
+		75BD2BAF1BB0D529002F7108 /* racquet.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = racquet.jpg; sourceTree = "<group>"; };
+		75BD2BB01BB0D529002F7108 /* sunflower.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sunflower.jpg; sourceTree = "<group>"; };
+		75BD2BB81BB0D530002F7108 /* blue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blue.png; sourceTree = "<group>"; };
+		75BD2BB91BB0D530002F7108 /* CHOIR.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = CHOIR.gif; sourceTree = "<group>"; };
+		75BD2BBA1BB0D530002F7108 /* curtain1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = curtain1.png; sourceTree = "<group>"; };
+		75BD2BBB1BB0D530002F7108 /* keyboard.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = keyboard.png; sourceTree = "<group>"; };
+		75BD2BC01BB0D5A6002F7108 /* SwiftPromptsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftPromptsView.swift; sourceTree = "<group>"; };
+		75BD2BC11BB0D5A6002F7108 /* SwiftPrompts.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftPrompts.swift; sourceTree = "<group>"; };
+		75BD2BC21BB0D5A6002F7108 /* UIImageEffects.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIImageEffects.swift; sourceTree = "<group>"; };
+		75E7A08A1BADAA8100614584 /* Roster.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Roster.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		75E7A08E1BADAA8100614584 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		75E7A08F1BADAA8100614584 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		75E7A0911BADAA8100614584 /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
+		75E7A0931BADAA8100614584 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		75E7A0961BADAA8100614584 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		75E7A0981BADAA8100614584 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		75E7A09B1BADAA8100614584 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		75E7A0A11BADAA8100614584 /* RosterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RosterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		75E7A0A61BADAA8100614584 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		75E7A0A71BADAA8100614584 /* RosterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RosterTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		75E7A0871BADAA8100614584 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75E7A09E1BADAA8100614584 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		75E7A0811BADAA8100614584 = {
+			isa = PBXGroup;
+			children = (
+				75E7A08C1BADAA8100614584 /* Roster */,
+				75E7A0A41BADAA8100614584 /* RosterTests */,
+				75E7A08B1BADAA8100614584 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		75E7A08B1BADAA8100614584 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				75E7A08A1BADAA8100614584 /* Roster.app */,
+				75E7A0A11BADAA8100614584 /* RosterTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		75E7A08C1BADAA8100614584 /* Roster */ = {
+			isa = PBXGroup;
+			children = (
+				19BA5EA91BC21CA0003C95B9 /* CommonBluetooth.swift */,
+				75BD2BC01BB0D5A6002F7108 /* SwiftPromptsView.swift */,
+				75BD2BC11BB0D5A6002F7108 /* SwiftPrompts.swift */,
+				75BD2BC21BB0D5A6002F7108 /* UIImageEffects.swift */,
+				755F418B1BAEF147000ED507 /* Info.swift */,
+				75E7A08F1BADAA8100614584 /* AppDelegate.swift */,
+				755F41891BAEF10C000ED507 /* Students.swift */,
+				75E7A0911BADAA8100614584 /* MasterViewController.swift */,
+				756ACF4B1BC21220009B3ECE /* Storage.swift */,
+				752EB54B1BB08BDD00E3C1D3 /* NewStudentViewController.swift */,
+				752EB54D1BB0A46200E3C1D3 /* TableViewCell.swift */,
+				75E7A0931BADAA8100614584 /* DetailViewController.swift */,
+				75BD2B8A1BB0D4C7002F7108 /* FlipViewController.swift */,
+				75BD2B8C1BB0D4D5002F7108 /* GSViewController.swift */,
+				75BD2B8D1BB0D4D5002F7108 /* drawingView.swift */,
+				75BD2B8E1BB0D4D5002F7108 /* HaoFlipViewController.swift */,
+				75E7A0951BADAA8100614584 /* Main.storyboard */,
+				75E7A0981BADAA8100614584 /* Images.xcassets */,
+				75E7A09A1BADAA8100614584 /* LaunchScreen.xib */,
+				75E7A08D1BADAA8100614584 /* Supporting Files */,
+			);
+			path = Roster;
+			sourceTree = "<group>";
+		};
+		75E7A08D1BADAA8100614584 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				75BD2B921BB0D501002F7108 /* cf.wav */,
+				75E7A08E1BADAA8100614584 /* Info.plist */,
+				75BD2B9E1BB0D521002F7108 /* 6249.wav */,
+				75BD2BAA1BB0D529002F7108 /* me1.png */,
+				75BD2BB81BB0D530002F7108 /* blue.png */,
+				75BD2BB91BB0D530002F7108 /* CHOIR.gif */,
+				75BD2BBA1BB0D530002F7108 /* curtain1.png */,
+				75BD2BBB1BB0D530002F7108 /* keyboard.png */,
+				75BD2BAB1BB0D529002F7108 /* me2.png */,
+				75BD2BAC1BB0D529002F7108 /* me3.png */,
+				75BD2BAD1BB0D529002F7108 /* notes.png */,
+				75BD2BAE1BB0D529002F7108 /* piano.png */,
+				75BD2BAF1BB0D529002F7108 /* racquet.jpg */,
+				75BD2BB01BB0D529002F7108 /* sunflower.jpg */,
+				75BD2B9F1BB0D521002F7108 /* 6365.wav */,
+				75BD2BA01BB0D521002F7108 /* applause10.wav */,
+				75BD2BA11BB0D521002F7108 /* cartoon002.mp3 */,
+				75BD2BA21BB0D521002F7108 /* cartoon010.mp3 */,
+				75BD2BA31BB0D521002F7108 /* cartoon014.mp3 */,
+				75BD2B931BB0D501002F7108 /* cheer2.wav */,
+				75BD2B941BB0D501002F7108 /* dogbark2.wav */,
+				75BD2B951BB0D501002F7108 /* farm007.mp3 */,
+				75BD2B961BB0D501002F7108 /* musical001.mp3 */,
+				75BD2B971BB0D501002F7108 /* Windswept-synth-guitar-and-soft-strings.mp3 */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		75E7A0A41BADAA8100614584 /* RosterTests */ = {
+			isa = PBXGroup;
+			children = (
+				75E7A0A71BADAA8100614584 /* RosterTests.swift */,
+				75E7A0A51BADAA8100614584 /* Supporting Files */,
+			);
+			path = RosterTests;
+			sourceTree = "<group>";
+		};
+		75E7A0A51BADAA8100614584 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				75E7A0A61BADAA8100614584 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		75E7A0891BADAA8100614584 /* Roster */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 75E7A0AB1BADAA8100614584 /* Build configuration list for PBXNativeTarget "Roster" */;
+			buildPhases = (
+				75E7A0861BADAA8100614584 /* Sources */,
+				75E7A0871BADAA8100614584 /* Frameworks */,
+				75E7A0881BADAA8100614584 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Roster;
+			productName = Roster;
+			productReference = 75E7A08A1BADAA8100614584 /* Roster.app */;
+			productType = "com.apple.product-type.application";
+		};
+		75E7A0A01BADAA8100614584 /* RosterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 75E7A0AE1BADAA8100614584 /* Build configuration list for PBXNativeTarget "RosterTests" */;
+			buildPhases = (
+				75E7A09D1BADAA8100614584 /* Sources */,
+				75E7A09E1BADAA8100614584 /* Frameworks */,
+				75E7A09F1BADAA8100614584 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				75E7A0A31BADAA8100614584 /* PBXTargetDependency */,
+			);
+			name = RosterTests;
+			productName = RosterTests;
+			productReference = 75E7A0A11BADAA8100614584 /* RosterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		75E7A0821BADAA8100614584 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = "Hao Wu";
+				TargetAttributes = {
+					75E7A0891BADAA8100614584 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					75E7A0A01BADAA8100614584 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 75E7A0891BADAA8100614584;
+					};
+				};
+			};
+			buildConfigurationList = 75E7A0851BADAA8100614584 /* Build configuration list for PBXProject "Roster" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 75E7A0811BADAA8100614584;
+			productRefGroup = 75E7A08B1BADAA8100614584 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				75E7A0891BADAA8100614584 /* Roster */,
+				75E7A0A01BADAA8100614584 /* RosterTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		75E7A0881BADAA8100614584 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75BD2BB41BB0D529002F7108 /* notes.png in Resources */,
+				75BD2B9D1BB0D501002F7108 /* Windswept-synth-guitar-and-soft-strings.mp3 in Resources */,
+				75BD2BBD1BB0D530002F7108 /* CHOIR.gif in Resources */,
+				75BD2BA51BB0D521002F7108 /* 6365.wav in Resources */,
+				75BD2BA41BB0D521002F7108 /* 6249.wav in Resources */,
+				75BD2BB31BB0D529002F7108 /* me3.png in Resources */,
+				75BD2BA71BB0D521002F7108 /* cartoon002.mp3 in Resources */,
+				75BD2B9A1BB0D501002F7108 /* dogbark2.wav in Resources */,
+				75BD2BB51BB0D529002F7108 /* piano.png in Resources */,
+				75BD2B991BB0D501002F7108 /* cheer2.wav in Resources */,
+				75E7A0971BADAA8100614584 /* Main.storyboard in Resources */,
+				75BD2BB61BB0D529002F7108 /* racquet.jpg in Resources */,
+				75BD2BB21BB0D529002F7108 /* me2.png in Resources */,
+				75BD2BA81BB0D521002F7108 /* cartoon010.mp3 in Resources */,
+				75BD2BA61BB0D521002F7108 /* applause10.wav in Resources */,
+				75BD2B9C1BB0D501002F7108 /* musical001.mp3 in Resources */,
+				75E7A09C1BADAA8100614584 /* LaunchScreen.xib in Resources */,
+				75BD2BBE1BB0D530002F7108 /* curtain1.png in Resources */,
+				75E7A0991BADAA8100614584 /* Images.xcassets in Resources */,
+				75BD2B9B1BB0D501002F7108 /* farm007.mp3 in Resources */,
+				75BD2BBF1BB0D530002F7108 /* keyboard.png in Resources */,
+				75BD2BB11BB0D529002F7108 /* me1.png in Resources */,
+				75BD2B981BB0D501002F7108 /* cf.wav in Resources */,
+				75BD2BA91BB0D521002F7108 /* cartoon014.mp3 in Resources */,
+				75BD2BBC1BB0D530002F7108 /* blue.png in Resources */,
+				75BD2BB71BB0D529002F7108 /* sunflower.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75E7A09F1BADAA8100614584 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		75E7A0861BADAA8100614584 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75BD2B911BB0D4D5002F7108 /* HaoFlipViewController.swift in Sources */,
+				75BD2BC41BB0D5A6002F7108 /* SwiftPrompts.swift in Sources */,
+				75BD2B8B1BB0D4C7002F7108 /* FlipViewController.swift in Sources */,
+				75E7A0941BADAA8100614584 /* DetailViewController.swift in Sources */,
+				75BD2B8F1BB0D4D5002F7108 /* GSViewController.swift in Sources */,
+				75BD2BC51BB0D5A6002F7108 /* UIImageEffects.swift in Sources */,
+				752EB54E1BB0A46200E3C1D3 /* TableViewCell.swift in Sources */,
+				75E7A0921BADAA8100614584 /* MasterViewController.swift in Sources */,
+				75BD2BC31BB0D5A6002F7108 /* SwiftPromptsView.swift in Sources */,
+				75E7A0901BADAA8100614584 /* AppDelegate.swift in Sources */,
+				755F418C1BAEF147000ED507 /* Info.swift in Sources */,
+				752EB54C1BB08BDD00E3C1D3 /* NewStudentViewController.swift in Sources */,
+				19BA5EAA1BC21CA0003C95B9 /* CommonBluetooth.swift in Sources */,
+				75BD2B901BB0D4D5002F7108 /* drawingView.swift in Sources */,
+				755F418A1BAEF10C000ED507 /* Students.swift in Sources */,
+				756ACF4C1BC21220009B3ECE /* Storage.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75E7A09D1BADAA8100614584 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75E7A0A81BADAA8100614584 /* RosterTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		75E7A0A31BADAA8100614584 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 75E7A0891BADAA8100614584 /* Roster */;
+			targetProxy = 75E7A0A21BADAA8100614584 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		75E7A0951BADAA8100614584 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				75E7A0961BADAA8100614584 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		75E7A09A1BADAA8100614584 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				75E7A09B1BADAA8100614584 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		75E7A0A91BADAA8100614584 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		75E7A0AA1BADAA8100614584 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		75E7A0AC1BADAA8100614584 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Roster/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		75E7A0AD1BADAA8100614584 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Roster/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		75E7A0AF1BADAA8100614584 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = RosterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Roster.app/Roster";
+			};
+			name = Debug;
+		};
+		75E7A0B01BADAA8100614584 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = RosterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Roster.app/Roster";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		75E7A0851BADAA8100614584 /* Build configuration list for PBXProject "Roster" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75E7A0A91BADAA8100614584 /* Debug */,
+				75E7A0AA1BADAA8100614584 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		75E7A0AB1BADAA8100614584 /* Build configuration list for PBXNativeTarget "Roster" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75E7A0AC1BADAA8100614584 /* Debug */,
+				75E7A0AD1BADAA8100614584 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		75E7A0AE1BADAA8100614584 /* Build configuration list for PBXNativeTarget "RosterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75E7A0AF1BADAA8100614584 /* Debug */,
+				75E7A0B01BADAA8100614584 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 75E7A0821BADAA8100614584 /* Project object */;
+}
