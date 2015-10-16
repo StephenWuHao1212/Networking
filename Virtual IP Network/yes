@@ -1,0 +1,130 @@
+Current directory is ~/workspace2/356--hw2/
+GNU gdb (Ubuntu/Linaro 7.4-2012.04-0ubuntu2.1) 7.4-2012.04
+Copyright (C) 2012 Free Software Foundation, Inc.
+License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.  Type "show copying"
+and "show warranty" for details.
+This GDB was configured as "x86_64-linux-gnu".
+For bug reporting instructions, please see:
+<http://bugs.launchpad.net/gdb-linaro/>...
+Reading symbols from /home/ubuntu/workspace2/356--hw2/rip...done.
+(gdb) start B
+Temporary breakpoint 1 at 0x4048db: file main.cpp, line 161.
+Starting program: /home/ubuntu/workspace2/356--hw2/rip B
+[Thread debugging using libthread_db enabled]
+Using host libthread_db library "/lib/x86_64-linux-gnu/libthread_db.so.1".
+
+Temporary breakpoint 1, main (argc=2, argv=0x7fffffffe248) at main.cpp:161
+(gdb) n
+(gdb) 
+(gdb) 
+127.0.0.1
+17001
+10.10.14.: invalid
+: Connection timed out
+[Inferior 1 (process 10494) exited with code 01]
+warning: Error removing breakpoint 0
+warning: Error removing breakpoint 0
+warning: Error removing breakpoint 0
+warning: Error removing breakpoint 0
+warning: Error removing breakpoint 0
+warning: Error removing breakpoint 0
+warning: Error removing breakpoint 0
+warning: Error removing breakpoint 0
+warning: Error removing breakpoint 0
+warning: Error removing breakpoint 0
+(gdb) start B
+Temporary breakpoint 2 at 0x4048db: file main.cpp, line 161.
+Starting program: /home/ubuntu/workspace2/356--hw2/rip B
+warning: no loadable sections found in added symbol-file system-supplied DSO at 0x7ffff7ffa000
+[Thread debugging using libthread_db enabled]
+Using host libthread_db library "/lib/x86_64-linux-gnu/libthread_db.so.1".
+
+Temporary breakpoint 2, main (argc=2, argv=0x7fffffffe248) at main.cpp:161
+(gdb) n
+(gdb) 
+(gdb) s
+Node::Node (this=0x7fffffffe110, fileName=0x7fffffffe526 "B") at node.h:112
+warning: Source file is more recent than executable.
+(gdb) n
+(gdb) 
+(gdb) 
+(gdb) 
+(gdb) 
+(gdb) 
+(gdb) 
+(gdb) 
+127.0.0.1
+(gdb) 
+17001
+(gdb) 
+(gdb) 
+(gdb) 
+(gdb) 
+(gdb) 
+(gdb) 
+(gdb) 
+(gdb) s
+Node::get_link_info (this=0x7fffffffe110, line=..., localVIP=@0x7fffffffe04c: 32767, remoteVIP=@0x7fffffffe050: 0, port=@0x7fffffffe048: 57952, ip_addr=@0x7fffffffe044: 32767) at node.h:202
+(gdb) n
+(gdb) 
+(gdb) 
+(gdb) 
+(gdb) 
+(gdb) 
+(gdb) 
+(gdb) 
+(gdb) 
+(gdb) 
+(gdb) 
+(gdb) 
+(gdb) 
+(gdb) 
+(gdb) 
+(gdb) 
+(gdb) 
+(gdb) 
+(gdb) 
+(gdb) 
+(gdb) 
+(gdb) 
+(gdb) 
+Node::Node (this=0x7fffffffe110, fileName=0x7fffffffe526 "B") at node.h:144
+(gdb) 
+(gdb) 
+(gdb) 
+(gdb) 
+(gdb) 
+(gdb) 
+(gdb) 
+(gdb) s
+Node::get_link_info (this=0x7fffffffe110, line=..., localVIP=@0x7fffffffe04c: 67963402, remoteVIP=@0x7fffffffe050: 101517834, port=@0x7fffffffe048: 27202, ip_addr=@0x7fffffffe044: 16777343) at node.h:202
+(gdb) n
+(gdb) 
+(gdb) 
+(gdb) 
+(gdb) 
+(gdb) 
+(gdb) 
+(gdb) 
+(gdb) 
+(gdb) 
+(gdb) 
+(gdb) 
+(gdb) 
+(gdb) 
+(gdb) 
+(gdb) p localVIP
+$1 = (in_addr_t &) @0x7fffffffe04c: 84806154
+(gdb) n
+(gdb) 
+(gdb) 
+(gdb) 
+(gdb) 
+(gdb) 
+(gdb) s
+Node::get_ip_from_line (this=0x7fffffffe110, ip_str=0x60d938 "10.10.14.") at node.h:164
+(gdb) p ip_str
+$2 = 0x60d938 "10.10.14."
+(gdb) 

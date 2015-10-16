@@ -1,0 +1,4 @@
+1.use “make” to compile the file
+2.use “proxy 8080 size”(size means creating corresponding cache space) to start the program
+3.when first time access a website, terminal will show “first time to access: url”
+4.if not, it will show ”read from cache: url”

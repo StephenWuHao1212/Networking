@@ -1,0 +1,2 @@
+rip: main.cpp node.h print.h server_client.h table.h ipsum.h ipsum.cpp
+	g++ -ggdb3 -pedantic -o rip -std=gnu++98 -pthread main.cpp node.h print.h server_client.h table.h ipsum.h ipsum.cpp
